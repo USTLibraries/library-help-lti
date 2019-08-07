@@ -1,0 +1,27 @@
+
+#codeArea {
+	display: none;
+}
+
+#codeArea.displayCodeArea {
+	display: block;
+}
+
+#codeArea.disableCodeArea {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+span#copy.copybutton {
+	font-weight: 800;
+	background-color: darkblue;
+	color: white;
+	padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+	margin-right: 0.5rem;
+	display: inline-block;
+	float: left;
+}
+
+span#copy.copybutton:hover, span#copy.copybutton:focus {
+	background-color: mediumblue;
+}

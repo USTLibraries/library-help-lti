@@ -1,0 +1,70 @@
+[
+    {
+        "about": {
+            "description": "Dougherty Family College",
+            "internal_note": "If Canvas sub account is DFC (177) then place courses in the LibGuide Group for DFC (18016) and assign Janice (16136) as librarian",
+            "added": "clkluck - 2019-07-30"
+        },
+        "criteria": {
+            "custom_lri_acct_id": "177"
+        },
+        "replacement_values": {
+            "librarian_id": "16136",
+            "group_id": "18016",
+            "subject_id": "",
+            "guide_id": "",
+            "tag": "DFC"
+        }
+    },
+    {
+        "about": {
+            "description": "TEST CASE - Assign two librarians and two subjects subject - Chad and Eric - Entrepreneurship and English",
+            "internal_note": "",
+            "added": "clkluck - 2019-07-30"
+        },
+        "criteria": {
+            "custom_lri_course_id": "201940LIBX300-X9"
+        },
+        "replacement_values": {
+            "librarian_id": "22124,16133",
+            "group_id": "",
+            "subject_id": "21278,21249",
+            "guide_id": "",
+            "tag": ""
+        }
+    },
+    {
+        "about": {
+            "description": "TEST CASE - Assign a subject - English",
+            "internal_note": "",
+            "added": "clkluck - 2019-07-30"
+        },
+        "criteria": {
+            "custom_lri_course_id": "/LIBX400/"
+        },
+        "replacement_values": {
+            "librarian_id": "",
+            "group_id": "",
+            "subject_id": "21249",
+            "guide_id": "",
+            "tag": ""
+        }
+    },
+    {
+        "about": {
+            "description": "TEST CASE - Assign a guide - eluna",
+            "internal_note": "",
+            "added": "clkluck - 2019-07-30"
+        },
+        "criteria": {
+            "custom_lri_course_id": "/LIBX500/"
+        },
+        "replacement_values": {
+            "librarian_id": "",
+            "group_id": "",
+            "subject_id": "",
+            "guide_id": "932085",
+            "tag": ""
+        }
+    }
+]

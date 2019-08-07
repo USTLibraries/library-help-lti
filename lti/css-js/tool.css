@@ -1,0 +1,26 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	width: 100%;
+	max-width: 100.0rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2 {
+	margin-top: 6.0rem;
+}
+
+#login input, #login label {
+	display: block;
+}
+
+#login label {
+	font-weight: 700;
+}
