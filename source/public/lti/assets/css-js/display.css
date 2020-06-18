@@ -1,0 +1,100 @@
+/* css for display/launch page */
+
+body {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+.no-gap-after, #lib-librarian-profile h2 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.no-gap-before, #lib-librarian-profile p:first-of-type {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+div.lib-page-section {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	display: table;
+}
+
+body.non-lms div.lib-page-section {
+	max-width: 1200px;
+}
+
+div.lib-page-section h2:not(:first-child) {
+	margin-top: 3.5rem;
+}
+
+div#lib-main-resources {
+	float: left;
+	display: block;
+	width: 60%;
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+div#lib-section-coursematerial li:first-child {
+	border-top: 1px solid rgba(50, 119, 179, 0.2); /* copied from leganto style for citation card */
+}
+
+div#lib-section-coursematerial li {
+	width: 100%;
+	background-color: #f9fbfb; /* copied from leganto style for citation card */
+	border-bottom: 1px solid rgba(50, 119, 179, 0.2); /* copied from leganto style for citation card */
+	margin-top: 1.3rem;
+	margin-bottom: 1.3rem;
+}
+
+div#lib-section-coursematerial li a,
+div#lib-section-coursematerial li div { 
+	display: block;
+}
+
+div#lib-section-coursematerial ul,
+div#lib-section-coursematerial ol {
+	width: 100%;
+}
+
+.small-note {
+	font-size: 1.2rem;
+}
+
+.date-advisory {
+	color: #B15E2B;
+	font-weight: 700;
+}
+
+.content-block {
+	display: none;
+}
+
+.lib-page-section.management-section > h2 {
+	font-size: 1.3rem;
+	width: 100%;
+	background-color: lightgrey;
+	padding: 1rem 1rem 1rem 1rem;
+	cursor: pointer;
+}
+
+.lib-page-section.management-section > div {
+	padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+	background-color: lightgoldenrodyellow;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+	width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+	div#lib-main-resources, div#lib-librarian-profile {
+		float: none;
+		width: 100%;
+	}
+}

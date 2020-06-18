@@ -1,0 +1,53 @@
+[
+    {
+        "about": {
+            "description": "TEST CASE - Assign two librarians and two subjects subject - Entrepreneurship and English",
+            "internal_note": "",
+            "added": "clkluck - 2019-07-30"
+        },
+        "criteria": {
+            "custom_lri_course_id": "201940LIBX300-X9"
+        },
+        "replacement_values": {
+            "librarian_id": "22124,16133",
+            "group_id": "",
+            "subject_id": "21278,21249",
+            "guide_id": "",
+            "tag": ""
+        }
+    },
+    {
+        "about": {
+            "description": "TEST CASE - Assign a subject - English",
+            "internal_note": "",
+            "added": "clkluck - 2019-07-30"
+        },
+        "criteria": {
+            "custom_lri_course_id": "/LIBX400/"
+        },
+        "replacement_values": {
+            "librarian_id": "",
+            "group_id": "",
+            "subject_id": "21249",
+            "guide_id": "",
+            "tag": ""
+        }
+    },
+    {
+        "about": {
+            "description": "TEST CASE - Assign a guide - eluna",
+            "internal_note": "",
+            "added": "clkluck - 2019-07-30"
+        },
+        "criteria": {
+            "custom_lri_course_id": "/LIBX500/"
+        },
+        "replacement_values": {
+            "librarian_id": "",
+            "group_id": "",
+            "subject_id": "",
+            "guide_id": "932085",
+            "tag": ""
+        }
+    }
+]

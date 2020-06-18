@@ -1,0 +1,167 @@
+{
+    "default": {
+        "context_label": {
+            "type": "text",
+            "value": "201940LIBX201-X9_Chads_LTI_Sandbox_The_Good_Life"
+        },
+        "context_title": {
+            "type": "text",
+            "value": "LIBX201-X9 Chad's LTI Sandbox - The Good Life"
+        },
+        "roles": {
+            "type": "multi",
+            "value": "Student",
+            "options": "Administrator,Instructor,ContentDeveloper,Student",
+            "prepend": "urn:lti:instrole:ims/lis/",
+            "append": ""
+        },
+        "tool_consumer_instance_name": {
+            "type": "text",
+            "value": "Hello World University"
+        },
+        "custom_lri_api_domain": {
+            "type": "readonly",
+            "value": "stthomas.instructure.com"
+        },
+        "custom_lri_course_id": {
+            "type": "text",
+            "value": "201940LIBX201-X9"
+        },
+        "custom_lri_css_common": {
+            "type": "readonly",
+            "value": "https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/new_styles_normal_contrast/bundles/common-9138505e4c.css"
+        },
+        "custom_lri_id": {
+            "type": "text",
+            "value": "14163"
+        },
+        "custom_lri_acct_id": {
+            "type": "text",
+            "value": "1"
+        },
+        "custom_lri_acct_name": {
+            "type": "text",
+            "value": "Main College"
+        },
+        "user_id": {
+            "type": "text",
+            "value": "1234567890"
+        }
+    },
+    "LIBX400": {
+        "context_label": {
+            "value": "201940LIBX400-X9_Sandbox_for_Chad_Kluck"
+        },
+        "context_title": {
+            "value": "LIBX400-X9 Sandbox for Chad Kluck - Deceit and Trama in Writing"
+        },
+        "custom_lri_course_id": {
+            "value": "201940LIBX400-X9"
+        },
+        "custom_lri_id": {
+            "value": "1416302"
+        }
+    },
+    "LIBX300_DFC": {
+        "context_label": {
+            "value": "201940LIBX300-X9_Dewey_vs_LOC"
+        },
+        "context_title": {
+            "value": "LIBX300-X9 Dewey vs Library of Congress"
+        },
+        "custom_lri_course_id": {
+            "value": "201940LIBX300-X9"
+        },
+        "custom_lri_acct_id": {
+            "value": "177"
+        },
+        "custom_lri_acct_name": {
+            "value": "Dougherty Family College"
+        },
+        "custom_lri_id": {
+            "value": "1416303"
+        }
+    },
+    "ENGL256_DFC": {
+        "context_label": {
+            "value": "201940ENGL256-X9_English"
+        },
+        "context_title": {
+            "value": "ENGL256-X9 English"
+        },
+        "custom_lri_course_id": {
+            "value": "201940ENGL256-X9"
+        },
+        "custom_lri_acct_id": {
+            "value": "177"
+        },
+        "custom_lri_acct_name": {
+            "value": "Dougherty Family College"
+        },
+        "custom_lri_id": {
+            "value": "1416304"
+        }
+    },
+    "MATH256_DFC": {
+        "context_label": {
+            "value": "201940MATH256-X9_Math"
+        },
+        "context_title": {
+            "value": "MATH256-X9 Math"
+        },
+        "custom_lri_course_id": {
+            "value": "201940MATH256-X9"
+        },
+        "custom_lri_acct_id": {
+            "value": "177"
+        },
+        "custom_lri_acct_name": {
+            "value": "Dougherty Family College"
+        },
+        "custom_lri_id": {
+            "value": "1416305"
+        }
+    },
+    "GEOL115_DFC": {
+        "context_label": {
+            "value": "201920GEOL115-G0L_Environmental_Geology"
+        },
+        "context_title": {
+            "value": "201920GEOL115-G0L Environmental Geology"
+        },
+        "custom_lri_course_id": {
+            "value": "201920GEOL115-G0L"
+        },
+        "custom_lri_acct_id": {
+            "value": "177"
+        },
+        "custom_lri_acct_name": {
+            "value": "Dougherty Family College"
+        },
+        "custom_lri_id": {
+            "value": "1416306"
+        }
+    },
+    "FUNHOUSE": {
+        "custom_lri_acct_id": {
+            "value": "22"
+        },
+        "custom_lri_acct_name": {
+            "value": "Fun House College"
+        },
+        "custom_lri_id": {
+            "value": "1416307"
+        }
+    },
+    "LAW": {
+        "custom_lri_acct_id": {
+            "value": "90"
+        },
+        "custom_lri_acct_name": {
+            "value": "School of Law"
+        },
+        "custom_lri_id": {
+            "value": "1416308"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+<!-- chat box -->
+<!--script>
+(function($) {
+	"use strict";
+
+	var dept = $("body").attr("data-department");
+
+	if ( dept != "LAWS" ) { // only display chat if not a law page as law does not use chat
+		var s=document.getElementsByTagName('script')[0];
+		var sc=document.createElement('script');
+		sc.type='text/javascript';
+		sc.async=true;
+		sc.src='https://yourdomain.com/js/chat-widget.js'; // if you need a wrapper for your widget check out https://github.com/USTLibraries
+		s.parentNode.insertBefore(sc,s);
+	}
+})(jQuery);
+
+</script-->
+<!-- end chat box -->

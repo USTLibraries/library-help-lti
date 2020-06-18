@@ -1,0 +1,86 @@
+/* your custom css code goes here */
+
+body { min-height: 99vh !important; }
+
+/* make links blue */
+a {
+	color: blue;
+	text-decoration: underline;
+}
+
+/* since we don't have text between h2 and widget, there is an odd space - clkluck 2017-12-07 */
+#lib-main-resources .discovery-search-widget {
+	margin-top: 0;
+}
+
+/* **************************************************
+ * Librarian Profiles
+ */
+
+div#lib-librarian-profile {
+	float: right;
+	display: block;
+	width: 35%;
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+.librarian-profile-outer {
+    margin-bottom: 2rem;
+}
+
+.librarian-profile-card {
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+    background: #f3f3f3;
+}
+
+.librarian-profile-card-image {
+    width: 15rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.librarian-profile-card-image img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+
+.librarian-profile-card-about {
+    width: 25rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.librarian-profile-card-name {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.librarian-profile-card-link {
+    font-size: 1.3rem;
+}
+
+.librarian-profile-expanded {
+    margin-top: 2rem;
+}
+
+.librarian-profile-expanded-widget {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.librarian-profile-expanded-contact {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.librarian-profile-expanded-contact strong,
+.librarian-profile-expanded-contact a,
+.librarian-profile-expanded-contact p {
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
